@@ -1,15 +1,17 @@
------------
+python binding for https://github.com/Ja-sonYun/sequence-diagram-cli
+
 DESCRIPTION
+-----------
 
     - seqdia wrapped by python c api
 
-------------
 HOW TO BUILD
+------------
 
     - python setup.py build && python setup.py install
 
--------------
 EXAMPLE USAGE
+-------------
 
 >>> import seqdia
 >>> def seqdia_printer(diagram):
